@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // Keep your passthrough setting too
-  eleventyConfig.addPassthroughCopy("admin");
+  eleventyConfig.addPassthroughCopy("src/admin");
 
   return {
     dir: {
