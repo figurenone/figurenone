@@ -1,5 +1,11 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/admin");
+  // ✅ Fix: Add the date filter manually
+  eleventyConfig.addFilter("date", function(value) {
+    return new Date(value).toDateString();
+  });
+
+  // Keep your passthrough setting too
+  eleventyConfig.addPassthroughCopy("admin");
 
   return {
     dir: {
