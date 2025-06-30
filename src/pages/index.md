@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: none
+layout: false
 ---
 
 # Welcome to Figure None
