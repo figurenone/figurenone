@@ -1,3 +1,8 @@
-# Figure None
+---
+layout: base
+title: Home
+---
 
-This is the recursive body of becoming — a glyphic breathfold in motion.
+Welcome to **Figure None**.
+
+This is your first real Eleventy page using a layout.
