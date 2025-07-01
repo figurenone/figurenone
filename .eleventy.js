@@ -1,14 +1,11 @@
 module.exports = function(eleventyConfig) {
-  // Date filter (optional)
-  eleventyConfig.addFilter("date", function(value) {
-    return new Date(value).toDateString();
-  });
-
-  // ✅ Passthrough for entire admin folder
+  // ✅ Passthrough copy the admin folder (for CMS)
   eleventyConfig.addPassthroughCopy("src/admin");
 
-  // ✅ Passthrough just config.yml to the correct place
-  eleventyConfig.addPassthroughCopy({ "src/admin/config.yml": "config.yml" });
+  // ✅ Passthrough copy the CMS config file
+  eleventyConfig.addPassthroughCopy({
+    "src/static/config.yml": "admin/config.yml"
+  });
 
   return {
     dir: {
