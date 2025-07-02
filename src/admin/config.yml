@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: figurenone/figurenone-site
   branch: main
+  auth_type: implicit
 
 media_folder: "src/assets/Images"
 public_folder: "/assets/Images"
