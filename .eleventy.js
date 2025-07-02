@@ -3,8 +3,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/admin");
 
   // ✅ Passthrough copy the CMS config file
-  eleventyConfig.addPassthroughCopy({
-    "src/static/config.yml": "admin/config.yml"
+eleventyConfig.addPassthroughCopy({ "src/static/config.yml": "admin/config.yml" });
+    "src/static/config.yml": "admin/config.yml": "src/static/_redirects": "_redirects"
   });
 
   return {
