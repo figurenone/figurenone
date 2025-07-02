@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: figurenone/figurenone  # your GitHub repo path
+  repo: figurenone/figurenone
   branch: main
 
 media_folder: "src/assets/images/uploads"
