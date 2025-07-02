@@ -1,16 +1,12 @@
 module.exports = function(eleventyConfig) {
-  // ✅ Passthrough copy the admin folder (for CMS)
-  eleventyConfig.addPassthroughCopy("src/admin");
-
-  // ✅ Passthrough copy the CMS config file
-eleventyConfig.addPassthroughCopy({ "src/static/config.yml": "admin/config.yml" });
-    "src/static/config.yml": "admin/config.yml": "src/static/_redirects": "_redirects"
-  });
+  eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
+  eleventyConfig.addPassthroughCopy({ "src/static/_redirects": "_redirects" });
+  // Add other passthroughs as needed
 
   return {
     dir: {
       input: "src",
-      output: "_site"
-    }
+      output: "_site",
+    },
   };
 };
