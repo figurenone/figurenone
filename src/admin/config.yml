@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway # Correct for GitHub OAuth with Netlify
+  name: git-gateway
   branch: main
 
 media_folder: "src/assets/images/uploads"
