@@ -1,11 +1,7 @@
 backend:
   name: github
-  repo: ReidBright/figurenone-site  # Replace with your GitHub repo path
+  repo: figurenone/figurenone  # your GitHub repo path
   branch: main
-  auth_scope: repo
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
-  site_domain: www.figurenone.com
 
 media_folder: "src/assets/images/uploads"
 public_folder: "/assets/images/uploads"
