@@ -1,26 +1,19 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Content Manager</title>
-    <script src="https://unpkg.com/decap-cms@^2.11.0/dist/decap-cms.js" defer></script>
-  </head>
-  <body>
-    <div id="nc-root"></div>
-    <script>
-      function tryInitDecapCMSApp(retries = 10) {
-        if (window.DecapCMSApp) {
-          window.DecapCMSApp.init();
-        } else if (retries > 0) {
-          setTimeout(() => tryInitDecapCMSApp(retries - 1), 100);
-        } else {
-          console.error("DecapCMSApp still not defined after waiting");
-        }
-      }
+backend:
+  name: github
+  repo: figurenone/figurenone-site      # your GitHub repo
+  branch: main                          # or 'master'
+  auth_scope: "repo"
 
-      window.addEventListener("DOMContentLoaded", () => {
-        tryInitDecapCMSApp();
-      });
-    </script>
-  </body>
-</html>
+media_folder: "src/assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "src/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title",    name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body",     name: "body", widget: "markdown"}

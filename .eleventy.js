@@ -1,25 +1,24 @@
+// .eleventy.js
+const dateFilter = require("nunjucks-date-filter");
+
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addFilter("date", function(value) {
-    return new Date(value).toDateString();
-  });
+  // make the date filter available in ALL template engines
+  eleventyConfig.addFilter("date", dateFilter);
+  // also make it explicitly available to Nunjucks
+  eleventyConfig.addNunjucksFilter("date", dateFilter);
 
-  // ✅ Redirects passthrough
-  eleventyConfig.addPassthroughCopy({
-    "src/static/_redirects": "_redirects"
-  });
-
-  // ❌ REMOVE THIS — it causes errors
-  // eleventyConfig.addPassthroughCopy("src/admin");
-
-  // ✅ Correct admin passthrough for Netlify CMS
-  eleventyConfig.addPassthroughCopy({
-    "src/static/admin": "admin"
-  });
+  eleventyConfig.addPassthroughCopy("src/assets");
 
   return {
     dir: {
-      input: "src",
-      output: "_site"
-    }
+      input:      "src",
+      includes:   "_includes",
+      data:       "_data",
+      output:     "dist"
+    },
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine:     "njk",
+    dataTemplateEngine:     "njk",
+    templateFormats:        ["njk", "md", "html"]
   };
 };
