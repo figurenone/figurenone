@@ -2,12 +2,15 @@
 const dateFilter = require("nunjucks-date-filter");
 
 module.exports = function(eleventyConfig) {
-  // make the date filter available in ALL template engines
+  // register your date filter…
   eleventyConfig.addFilter("date", dateFilter);
-  // also make it explicitly available to Nunjucks
   eleventyConfig.addNunjucksFilter("date", dateFilter);
 
+  // copy your assets if you have them
   eleventyConfig.addPassthroughCopy("src/assets");
+
+  // *** ADD THIS LINE TO COPY ADMIN FILES ***
+  eleventyConfig.addPassthroughCopy("src/admin");
 
   return {
     dir: {
@@ -19,6 +22,6 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine:     "njk",
     dataTemplateEngine:     "njk",
-    templateFormats:        ["njk", "md", "html"]
+    templateFormats:        ["njk","md","html"]
   };
 };
