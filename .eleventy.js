@@ -3,11 +3,18 @@ module.exports = function(eleventyConfig) {
     return new Date(value).toDateString();
   });
 
+  // ✅ Redirects passthrough
   eleventyConfig.addPassthroughCopy({
     "src/static/_redirects": "_redirects"
   });
 
-eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
+  // ❌ REMOVE THIS — it causes errors
+  // eleventyConfig.addPassthroughCopy("src/admin");
+
+  // ✅ Correct admin passthrough for Netlify CMS
+  eleventyConfig.addPassthroughCopy({
+    "static/admin": "admin"
+  });
 
   return {
     dir: {
