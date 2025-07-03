@@ -1,7 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: figurenone/figurenone
   branch: main
-  identity_url: https://figurenone.netlify.app/.netlify/identity
 
 media_folder: "src/assets/images/uploads"
 public_folder: "/assets/images/uploads"
