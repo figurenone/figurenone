@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
 
   // ✅ Correct admin passthrough for Netlify CMS
   eleventyConfig.addPassthroughCopy({
-    "static/admin": "admin"
+    "src/static/admin": "admin"
   });
 
   return {

@@ -2,7 +2,8 @@ backend:
   name: github
   repo: figurenone/figurenone
   branch: main
-  auth_scope: repo
+  auth_type: implicit
+  app_id: Ov23lif4Vw9l9F9dwHCO
 
 media_folder: "src/assets/images/uploads"
 public_folder: "/assets/images/uploads"
