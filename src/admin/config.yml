@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: figurenone/figurenone-site      # your GitHub repo
+  repo: figurenone/figurenone      # your GitHub repo
   branch: main                          # or 'master'
   auth_scope: "repo"
 
