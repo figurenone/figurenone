@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: figurenone/figurenone      # your GitHub repo
-  branch: main                          # or 'master'
-  auth_scope: "repo"
+  repo: figurenone/figurenone      # ← your GitHub org/repo
+  branch: main                     # ← the branch you’re deploying from
+  auth_scope: "repo"               # ← so it can open PRs if needed
 
 media_folder: "src/assets/images/uploads"
 public_folder: "/assets/images/uploads"
@@ -14,6 +14,6 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Title",    name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body",     name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
