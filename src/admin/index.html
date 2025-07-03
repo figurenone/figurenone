@@ -3,19 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <title>Content Manager</title>
-    <!-- Correct Netlify CMS script -->
-    <script src="https://unpkg.com/netlify-cms-app@2.15.72/dist/netlify-cms.js"></script>
+    <!-- Defer loading the CMS script -->
+    <script src="https://unpkg.com/netlify-cms-app@2.15.72/dist/netlify-cms.js" defer></script>
   </head>
   <body>
     <div id="nc-root"></div>
     <script>
-      window.onload = function () {
+      // Wait until CMS is loaded
+      function tryInitCMS(retries = 10) {
         if (window.CMS) {
           window.CMS.init();
+        } else if (retries > 0) {
+          setTimeout(() => tryInitCMS(retries - 1), 100); // retry every 100ms
         } else {
-          console.error("CMS is not defined");
+          console.error("CMS still not defined after waiting");
         }
-      };
+      }
+
+      window.addEventListener("DOMContentLoaded", () => {
+        tryInitCMS();
+      });
     </script>
   </body>
 </html>
