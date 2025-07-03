@@ -3,23 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <title>Content Manager</title>
-    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js" defer></script>
+    <script src="https://unpkg.com/decap-cms@^2.11.0/dist/decap-cms.js" defer></script>
   </head>
   <body>
     <div id="nc-root"></div>
     <script>
-      function tryInitCMS(retries = 10) {
-        if (window.CMS) {
-          window.CMS.init();
+      function tryInitDecapCMSApp(retries = 10) {
+        if (window.DecapCMSApp) {
+          window.DecapCMSApp.init();
         } else if (retries > 0) {
-          setTimeout(() => tryInitCMS(retries - 1), 100);
+          setTimeout(() => tryInitDecapCMSApp(retries - 1), 100);
         } else {
-          console.error("CMS still not defined after waiting");
+          console.error("DecapCMSApp still not defined after waiting");
         }
       }
 
       window.addEventListener("DOMContentLoaded", () => {
-        tryInitCMS();
+        tryInitDecapCMSApp();
       });
     </script>
   </body>
