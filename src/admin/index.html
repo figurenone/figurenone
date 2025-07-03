@@ -8,7 +8,13 @@
   <body>
     <script>
       window.CMS_MANUAL_INIT = true;
-      CMS.init();
+      window.addEventListener('load', () => {
+        if (window.CMS) {
+          CMS.init();
+        } else {
+          console.error("CMS is not defined");
+        }
+      });
     </script>
   </body>
 </html>
