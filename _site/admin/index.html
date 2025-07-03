@@ -3,20 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <title>Content Manager</title>
-    <!-- ✅ Use the latest stable Netlify CMS via CDN, with defer -->
-    <script src="https://unpkg.com/netlify-cms-app@2.15.72/dist/netlify-cms.js" defer></script>
   </head>
   <body>
     <div id="nc-root"></div>
 
+    <!-- ✅ Load Netlify CMS dynamically and init after it's defined -->
     <script>
-      window.onload = function () {
+      const script = document.createElement("script");
+      script.src = "https://unpkg.com/netlify-cms-app@2.15.72/dist/netlify-cms.js";
+      script.onload = function () {
         if (window.CMS) {
           window.CMS.init();
         } else {
-          console.error("CMS is not defined");
+          console.error("CMS is still not defined after loading script.");
         }
       };
+      document.body.appendChild(script);
     </script>
   </body>
 </html>
