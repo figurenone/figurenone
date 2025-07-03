@@ -1,11 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Content Manager</title>
+    <meta charset="utf-8" />
+    <title>Netlify CMS</title>
+    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
   </head>
   <body>
-    <!-- Mount point for Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
+    <div id="cms"></div>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+      window.NetlifyCmsApp = window.CMS || {};
+      NetlifyCmsApp.init();
+    </script>
   </body>
 </html>
