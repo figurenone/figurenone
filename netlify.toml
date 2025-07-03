@@ -1,13 +1,10 @@
-# netlify.toml
-
 [build]
-  command   = "npm run build"
-  publish   = "dist"
+  command = "npm run build"
+  publish = "dist"
 
 [dev]
   framework = "eleventy"
 
-# Redirect /admin (no slash) to /admin/ so index.html & config.yml load correctly
 [[redirects]]
   from   = "/admin"
   to     = "/admin/"
