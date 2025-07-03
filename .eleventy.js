@@ -3,11 +3,7 @@ module.exports = function(eleventyConfig) {
     return new Date(value).toDateString();
   });
 
-  // ✅ Eleventy v2+ ignore pattern
-  eleventyConfig.ignores.add("_site/**");
-
   eleventyConfig.addPassthroughCopy({
-    "src/admin/config.yml": "admin/config.yml",
     "src/static/_redirects": "_redirects"
   });
 
