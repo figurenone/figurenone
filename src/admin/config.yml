@@ -1,10 +1,9 @@
 backend:
-  name: github
-  repo: figurenone/figurenone   # ✅ This is your GitHub repo
-  branch: main                  # ✅ Correct branch
+  name: git-gateway
+  branch: main
 
-media_folder: "src/assets/images/uploads"  # ✅ Where uploads go in the repo
-public_folder: "/assets/images/uploads"    # ✅ How the site sees them
+media_folder: "src/assets/images/uploads"
+public_folder: "/assets/images/uploads"
 
 collections:
   - name: "pages"
