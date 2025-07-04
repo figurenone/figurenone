@@ -1,22 +1,24 @@
 # netlify.toml
 [build]
-  command   = "npm run build"
-  publish   = "dist"
+  command = "npm run build"
+  publish = "dist"
 
-# 1. Redirect /admin to /admin/ (trailing slash)
+# 1️⃣ Redirect the exact “/admin” path to “/admin/”
 [[redirects]]
-  from    = "/admin"
-  to      = "/admin/"
-  status  = 301
+  from   = "/admin"
+  to     = "/admin/"
+  status = 301
+  force  = true
 
-# 2. Let the CMS config file through unaltered
+# 2️⃣ Serve your real config.yml at /admin/config.yml
 [[redirects]]
-  from    = "/admin/config.yml"
-  to      = "/admin/config.yml"
-  status  = 200
+  from   = "/admin/config.yml"
+  to     = "/admin/config.yml"
+  status = 200
 
-# 3. Everything else under /admin/* → your SPA entrypoint
+# 3️⃣ Everything else under /admin/ goes to the SPA shell
 [[redirects]]
-  from    = "/admin/*"
-  to      = "/admin/index.html"
-  status  = 200
+  from   = "/admin/*"
+  to     = "/admin/index.html"
+  status = 200
+  force  = true
