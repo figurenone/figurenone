@@ -6,13 +6,15 @@
   framework = "eleventy"
 
 [[redirects]]
-  from   = "/admin"
-  to     = "/admin/"
-  status = 301
-  force  = true
+  # ensure /admin → /admin/ (trailing-slash)
+  from     = "/admin"
+  to       = "/admin/"
+  status   = 301
+  force    = true
 
 [[redirects]]
-  from   = "/admin/*"
-  to     = "/admin/:splat"
-  status = 200
-  force  = true
+  # rewrite everything under /admin/* to /admin/index.html in dist
+  from     = "/admin/*"
+  to       = "/admin/index.html"
+  status   = 200
+  force    = true
