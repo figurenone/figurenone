@@ -1,21 +1,15 @@
 # netlify.toml
-
 [build]
-  # your normal Eleventy build
   command   = "npm run build"
   publish   = "dist"
 
-[dev]
-  framework = "eleventy"
-
-# Redirect “/admin” → “/admin/” (trailing slash)
+# Always serve your SPA entrypoint for /admin
 [[redirects]]
   from   = "/admin"
-  to     = "/admin/"
-  status = 301
+  to     = "/admin/index.html"
+  status = 200
   force  = true
 
-# Rewrite everything under /admin/* to your CMS entrypoint
 [[redirects]]
   from   = "/admin/*"
   to     = "/admin/index.html"
