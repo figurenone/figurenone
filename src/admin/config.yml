@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: figurenone/figurenone
   branch: main
+
+publish_mode: simple
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
