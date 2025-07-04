@@ -2,13 +2,13 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "assets/uploads"      # where uploaded files live in your repo
-public_folder: "/assets/uploads"    # the URL prefix for those files
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
-  - name: "pages"                   # we’ll call this collection “pages”
-    label: "Pages"                  # human-friendly label in the UI
-    folder: "src/pages"             # where your page files live
+  - name: "pages"
+    label: "Pages"
+    folder: "src/pages"
     create: true
     slug: "{{slug}}"
     fields:
