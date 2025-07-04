@@ -3,22 +3,14 @@
   command = "npm run build"
   publish = "dist"
 
-# 1) Redirect /admin → /admin/ 
+# 1️⃣ If someone visits /admin exactly, serve index.html directly
 [[redirects]]
   from   = "/admin"
-  to     = "/admin/"
-  status = 301
-  force  = true
-
-# 2) Let the config.yml file be fetched directly
-[[redirects]]
-  from   = "/admin/config.yml"
-  to     = "/admin/config.yml"
+  to     = "/admin/index.html"
   status = 200
 
-# 3) Everything else under /admin/ goes to the SPA
+# 2️⃣ And catch *everything* under /admin/ in the same way
 [[redirects]]
   from   = "/admin/*"
   to     = "/admin/index.html"
   status = 200
-  force  = true
