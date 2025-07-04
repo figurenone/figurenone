@@ -3,14 +3,15 @@
   command = "npm run build"
   publish = "dist"
 
-# Redirect “/admin” (no slash) → “/admin/”
+# Redirect /admin → /admin/index.html (and any sub-paths) into your SPA
 [[redirects]]
   from   = "/admin"
-  to     = "/admin/"
-  status = 301
+  to     = "/admin/index.html"
+  status = 200
+  force  = true
 
-# Serve the SPA shell for anything under /admin/* that isn't a real file
 [[redirects]]
   from   = "/admin/*"
   to     = "/admin/index.html"
   status = 200
+  force  = true
