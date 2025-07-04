@@ -1,16 +1,22 @@
 # netlify.toml
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command   = "npm run build"
+  publish   = "dist"
 
-# when someone hits exactly /admin, serve the SPA entrypoint
+# 1. Redirect /admin to /admin/ (trailing slash)
 [[redirects]]
-  from   = "/admin"
-  to     = "/admin/index.html"
-  status = 200
+  from    = "/admin"
+  to      = "/admin/"
+  status  = 301
 
-# for anything under /admin/, serve the SPA entrypoint *only if no file exists*
+# 2. Let the CMS config file through unaltered
 [[redirects]]
-  from   = "/admin/*"
-  to     = "/admin/index.html"
-  status = 200
+  from    = "/admin/config.yml"
+  to      = "/admin/config.yml"
+  status  = 200
+
+# 3. Everything else under /admin/* → your SPA entrypoint
+[[redirects]]
+  from    = "/admin/*"
+  to      = "/admin/index.html"
+  status  = 200
