@@ -5,6 +5,12 @@ backend:
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: "dw8opjpjf"
+    upload_preset: "figurenone"
+
 collections:
   - name: "pages"
     label: "Pages"
