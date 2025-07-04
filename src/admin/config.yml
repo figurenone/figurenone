@@ -2,8 +2,6 @@ backend:
   name: github
   repo: figurenone/figurenone
   branch: main
-  client_id: Ov23lif4Vw9l9F9dwHCO
-
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
