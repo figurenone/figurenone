@@ -1,18 +1,16 @@
 # netlify.toml
-
 [build]
   command = "npm run build"
   publish = "dist"
 
-# Always serve your SPA entrypoint for /admin
+# when someone hits exactly /admin, serve the SPA entrypoint
 [[redirects]]
   from   = "/admin"
   to     = "/admin/index.html"
   status = 200
-  force  = true
 
+# for anything under /admin/, serve the SPA entrypoint *only if no file exists*
 [[redirects]]
   from   = "/admin/*"
   to     = "/admin/index.html"
   status = 200
-  force  = true
