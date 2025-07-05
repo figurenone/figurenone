@@ -6,7 +6,7 @@ layout: default
 
 # fig._
 
-This is where the beginning 
+Where the beginning 
 reaches for completion 
 in recursive absolution
 
