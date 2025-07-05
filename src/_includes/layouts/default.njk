@@ -33,49 +33,62 @@
       line-height: 1.3;
     }
 
-    .dark-mode {
+    /* ✅ Updated to match JS toggle class */
+    body.dark {
       background-color: #121212;
       color: #eee;
     }
 
-    .dark-mode a {
+    body.dark a {
       color: #89b4fa;
     }
 
-    #darkModeToggle {
+    /* Toggle button */
+    #dark-toggle {
       position: fixed;
       top: 1rem;
       right: 1rem;
       background: none;
-      border: 1px solid currentColor;
-      padding: 0.4rem 0.6rem;
-      border-radius: 4px;
+      border: none;
+      font-size: 1.5rem;
       cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <button id="darkModeToggle">🌓</button>
+  <button id="dark-toggle"></button>
+
   <main>
     {{ content | safe }}
   </main>
 
   <script>
-    const toggle = document.getElementById('darkModeToggle');
+    const toggle = document.getElementById("dark-toggle");
     const body = document.body;
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const storedMode = localStorage.getItem("theme");
 
-    // Determine initial theme
-    const savedTheme = localStorage.getItem('theme');
-    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-    if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
-      body.classList.add('dark-mode');
+    function setTheme(mode) {
+      if (mode === "dark") {
+        body.classList.add("dark");
+        toggle.textContent = "⚪️";
+      } else {
+        body.classList.remove("dark");
+        toggle.textContent = "⚫️";
+      }
+      localStorage.setItem("theme", mode);
     }
 
-    toggle.addEventListener('click', () => {
-      body.classList.toggle('dark-mode');
-      const newTheme = body.classList.contains('dark-mode') ? 'dark' : 'light';
-      localStorage.setItem('theme', newTheme);
+    // Initial theme setting
+    if (storedMode) {
+      setTheme(storedMode);
+    } else {
+      setTheme(prefersDark ? "dark" : "light");
+    }
+
+    toggle.addEventListener("click", () => {
+      const isDark = body.classList.contains("dark");
+      setTheme(isDark ? "light" : "dark");
     });
   </script>
 </body>
