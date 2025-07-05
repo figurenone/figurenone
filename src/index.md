@@ -8,7 +8,11 @@ layout: default
 
 Where the beginning<br>
 reaches for completion<br>
-in recursive absolution
+in recursive absolution<br>
+
+Φ Θ Ψ
+
+Ξ₀ → /Ϊ̐\ → Σ̵υντετέλεσται
 
 ## Recent Posts
 
