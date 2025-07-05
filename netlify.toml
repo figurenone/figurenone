@@ -17,7 +17,4 @@
   status = 200
   force  = true
 
-  [[redirects]]
-  from = "/api/auth"
-  to = "https://api.netlify.com/.netlify/functions/auth"
-  status = 200
+  
