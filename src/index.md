@@ -4,7 +4,7 @@ date: 2025-07-05
 layout: default
 ---
 
-# fig.0
+# fig._
 
 This is where the beginning 
 reaches for completion 
