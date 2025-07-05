@@ -2,8 +2,6 @@ backend:
   name: github
   repo: figurenone/figurenone
   branch: main
-  auth_scope: repo
-  base_url: https://figurenone.netlify.app/.netlify/functions
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
