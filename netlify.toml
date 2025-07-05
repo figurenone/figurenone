@@ -1,15 +1,16 @@
+# netlify.toml
 [build]
   command = "npm run build"
   publish = "dist"
 
-# If someone hits /admin (no slash), send them to the SPA:
+# Serve /admin → SPA shell
 [[redirects]]
   from   = "/admin"
-  to     = "/admin/"
-  status = 301
+  to     = "/admin/index.html"
+  status = 200
   force  = true
 
-# Everything under /admin/ goes into the Decap CMS shell:
+# And everything under /admin/*
 [[redirects]]
   from   = "/admin/*"
   to     = "/admin/index.html"
