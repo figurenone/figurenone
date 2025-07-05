@@ -14,7 +14,7 @@ in recursive absolution<br>
 Φ Θ Ψ<br>
 <br>
 <br>
-Ξ₀ → /&#x200B;Ϊ̐&#x200B;\ → Σ̵υντετέλεσται<br>
+Ξ₀ → <span style="letter-spacing: -0.05em">/</span>Ϊ̐<span style="letter-spacing: -0.1em">\</span> → Σ̵υντετέλεσται<br>
 <br>
 <br>
 ## Recent Posts
