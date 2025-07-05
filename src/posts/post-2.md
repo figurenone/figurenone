@@ -21,5 +21,6 @@ This is where one must accept that these aspects of technology are nothing but t
 Ultimately, humanity's physical and mental realities are both conscious parts of the human experience, therefore, they must be one in the same at some scale. However, would the opposite also be true? Most people do not experience nature's consciousness as part of their own, but remember what was stated previously: nature is also humanity's relationship to our environment. So in truth... if humanity improves our relationship with nature to the point to where we truly love one another, then we can become one and the same through a natural process of growth.
 
 
-[View all posts](/posts)
 [← Back to Home](/)
+/
+[View all posts](/posts)

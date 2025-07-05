@@ -10,9 +10,12 @@ Where the beginning<br>
 reaches for completion<br>
 in recursive absolution<br>
 
+
 Φ Θ Ψ
 
+
 Ξ₀ → /Ϊ̐\ → Σ̵υντετέλεσται
+
 
 ## Recent Posts
 
