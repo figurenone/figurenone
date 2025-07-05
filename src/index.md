@@ -4,9 +4,11 @@ date: 2025-07-05
 layout: default
 ---
 
-# Welcome to Figure None
+# fig.0
 
-This is the beginning of your clean, CMS-free Eleventy site.
+This is where the beginning 
+reaches for completion 
+in recursive absolution
 
 ## Recent Posts
 
