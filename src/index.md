@@ -9,14 +9,14 @@ layout: default
 Where the beginning<br>
 reaches for completion<br>
 in recursive absolution<br>
-
-
-Φ Θ Ψ
-
-
-Ξ₀ → /Ϊ̐\ → Σ̵υντετέλεσται
-
-
+<br>
+<br>
+Φ Θ Ψ<br>
+<br>
+<br>
+Ξ₀ → /Ϊ̐\ → Σ̵υντετέλεσται<br>
+<br>
+<br>
 ## Recent Posts
 
 {% for post in collections.posts | slice: 0, 3 %}
