@@ -1,20 +1,3 @@
-# netlify.toml
 [build]
   command = "npm run build"
   publish = "dist"
-
-# Serve /admin → SPA shell
-[[redirects]]
-  from   = "/admin"
-  to     = "/admin/index.html"
-  status = 200
-  force  = true
-
-# And everything under /admin/*
-[[redirects]]
-  from   = "/admin/*"
-  to     = "/admin/index.html"
-  status = 200
-  force  = true
-
-  

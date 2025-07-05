@@ -1,15 +1,13 @@
 {
   "name": "figurenone-site",
   "version": "1.0.0",
-  "description": "Eleventy site for Figure None",
+  "description": "Clean Eleventy build for figurenone.com",
+  "main": ".eleventy.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "build": "eleventy",
+    "start": "eleventy --serve"
   },
   "devDependencies": {
-    "nunjucks-date-filter": "^0.1.1"
+    "@11ty/eleventy": "^2.0.1"
   }
 }
