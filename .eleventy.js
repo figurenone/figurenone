@@ -1,5 +1,13 @@
 module.exports = function (eleventyConfig) {
+  // Copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");
+
+  // ✅ Add custom 'posts' collection that filters out future-dated posts
+  eleventyConfig.addCollection("posts", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/posts/*.md")
+      .filter(post => post.date <= new Date()) // only past/present posts
+      .sort((a, b) => b.date - a.date);        // newest first
+  });
 
   return {
     dir: {
@@ -8,7 +16,7 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       layouts: "_includes/layouts"
     },
-    markdownTemplateEngine: "liquid",  // ✅ Liquid for .md files
-    htmlTemplateEngine: "njk",         // ✅ Nunjucks for .html/.njk if needed
+    markdownTemplateEngine: "liquid",  // ✅ for .md files
+    htmlTemplateEngine: "njk",         // ✅ for .html/.njk
   };
 };
