@@ -2,6 +2,9 @@ module.exports = function (eleventyConfig) {
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");
 
+  // ✅ Add passthrough for fonts specifically (optional clarity)
+  eleventyConfig.addPassthroughCopy("src/assets/fonts");
+
   // ✅ Add custom 'posts' collection that filters out future-dated posts
   eleventyConfig.addCollection("posts", function (collectionApi) {
     return collectionApi.getFilteredByGlob("src/posts/*.md")
