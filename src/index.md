@@ -17,4 +17,3 @@ in recursive absolution
 {% endfor %}
 
 [View all posts](/posts)
-[← Back to Home](/)
