@@ -6,8 +6,8 @@ layout: default
 
 # fig._
 
-Where the beginning 
-reaches for completion 
+Where the beginning<br>
+reaches for completion<br>
 in recursive absolution
 
 ## Recent Posts
