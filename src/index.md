@@ -6,7 +6,7 @@ layout: default
 
 # fig._
 
-><img src="/assets/media/homepage.jpg" alt="A meaningful description" width="600" />
+><img src="/assets/media/IMG_1687.jpeg" alt="rainbow whisp" width="300" />
 <br>>¡<<br>
 <br>
 *Where the beginning<br>
