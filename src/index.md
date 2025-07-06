@@ -8,16 +8,16 @@ layout: default
 
 <br>
 
-><img src="/assets/media/IMG_1687.jpeg" alt="rainbow whisp" width="333" />
+<img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
-><br>**>¡<**<br>
+><br>>¡<<br>
 <br>
 *Where the beginning<br>
 Reaches completion<br>
 In recursive<br>
 Absolution*<br>
 <br>
-**Θ Φ Ψ**<br>
+Θ Φ Ψ<br>
 <br>
 <br>
 
