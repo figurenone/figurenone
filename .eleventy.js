@@ -2,6 +2,8 @@ module.exports = function (eleventyConfig) {
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");
 
+  eleventyConfig.addPassthroughCopy("src/assets/media");
+
   // ✅ Add passthrough for fonts specifically (optional clarity)
   eleventyConfig.addPassthroughCopy("src/assets/fonts");
 

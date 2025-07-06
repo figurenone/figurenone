@@ -1,5 +1,5 @@
 ---
-title: Basis of Understanding
+title: A Basis of Understanding
 date: 2025-07-05
 layout: default
 ---

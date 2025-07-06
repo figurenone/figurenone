@@ -6,7 +6,8 @@ layout: default
 
 # fig._
 
-><br>>¡<<br>
+><img src="/assets/media/homepage.jpg" alt="A meaningful description" width="600" />
+<br>>¡<<br>
 <br>
 *Where the beginning<br>
 Reaches completion<br>
