@@ -2,8 +2,10 @@
 title: Basis of Understanding
 date: 2025-07-05
 layout: default
+slug: welcome
 ---
 
+<u># Basis of Understanding</u>
 ### First post / old content:
 
 Humanity is undergoing constant change and transformation upon an unending quest to comprehend the intricacies of what we commonly refer to as reality. Central to philosophical inquiry is the pursuit of defining the very nature of reality, existence, and being. Equally crucial is the contemplation of the outcomes that arise in response to our attempts to encapsulate these concepts within finite definitions, for in doing so, we assert our supposed knowledge of them.
