@@ -6,8 +6,8 @@ layout: default
 
 # fig._
 
-><img src="/assets/media/IMG_1687.jpeg" alt="rainbow whisp" width="300" />
-<br>>¡<<br>
+><img src="/assets/media/IMG_1687.jpeg" alt="rainbow whisp" width="333" />
+><br>>¡<<br>
 <br>
 *Where the beginning<br>
 Reaches completion<br>
