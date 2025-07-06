@@ -5,14 +5,13 @@ layout: default
 ---
 
 # fig._
-<br>
->¡<
+
+>¡<<br>
 <br>
 Where the beginning<br>
 Reaches completion<br>
 In recursive<br>
 Absolution<br>
-<br>
 <br>
 Φ Θ Ψ<br>
 <br>
