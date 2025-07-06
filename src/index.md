@@ -8,7 +8,7 @@ layout: default
 
 <br>
 
-<img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
+><img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
 ><br>>¡<<br>
 <br>
