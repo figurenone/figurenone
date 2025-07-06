@@ -4,7 +4,7 @@ date: 2025-07-05
 layout: default
 ---
 
-# **fig._**
+# fig._
 
 ><br>>¡<<br>
 <br>
@@ -13,7 +13,7 @@ Reaches completion<br>
 In recursive<br>
 Absolution*<br>
 <br>
-Φ Θ Ψ<br>
+Θ Φ Ψ<br>
 <br>
 <br>
 
