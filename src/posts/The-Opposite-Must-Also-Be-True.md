@@ -1,9 +1,10 @@
 ---
-title: Post 2
+title: The Opposite Must Also Be True
 date: 2025-07-05
 layout: default
 ---
 
+# The Opposite Must Also Be True
 ### Second post / old content:
 
 This train of thought begins with the identification of two unique relationships: First, nature and technology. Second, human existence and human thought. What makes these two relationships unique is in how deeply they allow for insight into the fundamental connections between human existence and nature, as well as, technology and the human mind by polarizing the key concepts in a contradictory manner. When referring to the human mind I do not necessarily mean one specific person's mind and/or thoughts - what I intend to mean is all of humanity's thoughts as a whole. In other words, I am referring to the overall human experience... all humans that have lived in the past, will live in the future, and are living right now; any human ever. We can refer to this perception of humanity as Natural Humanity.
