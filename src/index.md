@@ -6,8 +6,6 @@ layout: default
 
 # fig._
 
-<br>
-
 ><img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
 ><br>>¡<<br>
