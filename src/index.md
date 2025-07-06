@@ -4,14 +4,14 @@ date: 2025-07-05
 layout: default
 ---
 
-# fig._
+# **fig._**
 
 ><br>>¡<<br>
 <br>
-Where the beginning<br>
+*Where the beginning<br>
 Reaches completion<br>
 In recursive<br>
-Absolution<br>
+Absolution*<br>
 <br>
 Φ Θ Ψ<br>
 <br>
