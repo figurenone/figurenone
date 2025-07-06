@@ -7,14 +7,12 @@ layout: default
 # fig._
 
 Where the beginning<br>
-reaches for completion<br>
-in recursive absolution<br>
+Reaches completion<br>
+In recursive<br>
+Absolution<br>
 <br>
 <br>
 Φ Θ Ψ<br>
-<br>
-<br>
-<p>Ξ₀ → ⧸Ϊ̐⧹ → Σ̵υντετέλεσται</p>
 <br>
 <br>
 
