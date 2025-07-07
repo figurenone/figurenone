@@ -6,8 +6,7 @@ layout: default
 
 # fig._
 
->
-<hr>
+><hr>
 Life is an endless effort 
 of conscious change
 <hr>
