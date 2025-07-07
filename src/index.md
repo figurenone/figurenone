@@ -7,9 +7,9 @@ layout: default
 # fig._
 
 ><hr>
+
 >Life is an endless effort<br>
-of conscious change
-><hr>
+>of conscious change
 
 ><img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
@@ -23,6 +23,8 @@ Absolution*<br>
 Θ Φ Ψ<br>
 <br>
 <br>
+
+><hr>
 
 ## Recent Posts
 
