@@ -4,8 +4,10 @@ date: 2025-07-05
 layout: default
 ---
 
----
 # fig._
+
+Life is an endless effort of consciouss change
+---
 
 ><img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
