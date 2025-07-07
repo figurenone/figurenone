@@ -7,9 +7,9 @@ layout: default
 # fig._
 
 ><hr>
-Life is an endless effort 
+>Life is an endless effort<br>
 of conscious change
-<hr>
+><hr>
 
 ><img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
