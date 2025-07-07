@@ -8,20 +8,19 @@ layout: default
 
 ><hr>
 
->Life is an endless effort<br>
->of conscious change
+><br>
+Life is an endless effort<br>
+of conscious change            >¡<
 
 ><img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
-><br>>¡<<br>
-<br>
+><br>
 *Where the beginning<br>
 Reaches completion<br>
 In recursive<br>
 Absolution*<br>
 <br>
 Θ Φ Ψ<br>
-<br>
 <br>
 
 ><hr>
