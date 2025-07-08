@@ -11,7 +11,7 @@ layout: default
 
 {% for post in collections.posts %}
 - [{{ post.data.title }}]({{ post.url }}) — {{ post.date | date: "%B %e, %Y" }}
-{% endfor %}
+{% endfor %}<br>
 
 ><hr>
 <br>
