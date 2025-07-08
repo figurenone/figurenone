@@ -30,4 +30,8 @@ layout: default
 - [{{ post.data.title }}]({{ post.url }}) — {{ post.date | date: "%B %e, %Y" }}
 {% endfor %}
 
+<br>
+><hr>
+<br>
+
 [View all posts](/posts)
