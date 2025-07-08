@@ -9,17 +9,17 @@ layout: default
 ><hr>
 
 >Life is an endless effort<br>
->of conscious change&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>¡<
+>of conscious change&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>¡<
 
 ><img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
-><br>
-*Where the beginning<br>
-Reaches completion<br>
-In recursive<br>
-Absolution*<br>
+>*Where the beginning<br>
+>Reaches completion<br>
+>In recursive<br>
+>Absolution*<br>
 <br>
-Θ Φ Ψ<br>
+
+>Θ Φ Ψ<br>
 <br>
 
 ><hr>
