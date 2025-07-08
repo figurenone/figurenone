@@ -23,6 +23,7 @@ layout: default
 <br>
 
 ><hr>
+<br>
 
 ## Recent Posts
 
@@ -31,6 +32,7 @@ layout: default
 {% endfor %}
 
 <br>
+
 ><hr>
 <br>
 
