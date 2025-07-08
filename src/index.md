@@ -8,9 +8,8 @@ layout: default
 
 ><hr>
 
-><br>
-Life is an endless effort<br>
-of conscious change            >¡<
+>Life is an endless effort<br>
+>of conscious change&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>¡<
 
 ><img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
