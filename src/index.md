@@ -15,8 +15,8 @@ layout: default
 
 ><img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
->*Where the beginning<br>
->Reaches completion<br>
+>*Wherein the beginning<br>
+>Completion reaches<br>
 >In recursive*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Θ Φ Ψ<br>
 >*Absolution*<br>
 
