@@ -6,6 +6,8 @@ layout: default
 
 # fig._
 
+<br>
+
 ><hr>
 
 >Life is an endless effort<br>
@@ -16,10 +18,7 @@ layout: default
 >*Where the beginning<br>
 >Reaches completion<br>
 >In recursive<br>
->Absolution*<br>
-<br>
-
->Θ Φ Ψ<br>
+>Absolution*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Θ Φ Ψ<br>
 <br>
 
 ><hr>
@@ -36,4 +35,4 @@ layout: default
 ><hr>
 <br>
 
-[View all posts](/posts)
+>[View all posts](/posts)
