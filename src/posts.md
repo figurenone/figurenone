@@ -18,4 +18,4 @@ layout: default
 ><hr>
 <br>
 
-[← Back to Home](/)
+>[← Back to Home](/)
