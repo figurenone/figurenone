@@ -19,7 +19,6 @@ layout: default
 >Reaches completion<br>
 >In recursive*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Θ Φ Ψ<br>
 >*Absolution*<br>
-<br>
 
 ><hr>
 <br>
