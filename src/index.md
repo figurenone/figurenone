@@ -32,7 +32,7 @@ Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
 
 <div style="text-align: center;">
 
-# Θ Φ Ψ
+# Θ Φ Ψ <br>
 
 <img src="/assets/media/beach-run.jpg" alt="" width="333" />
 
