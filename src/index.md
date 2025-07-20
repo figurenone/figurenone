@@ -9,6 +9,7 @@ layout: default
 ><hr>
 
 <br>
+<div style="text-align: center; font-family: monospace; white-space: pre;">
 ἈΓΓΕΛΟΣΛΟΓΟΥΕΙΜΙΑΡΡΗΤΟΣΚΑΙΡ<br>
 ΗΤΟΣΑΡΧΗΚΑΙΤΕΛΟΣΕΙΣΕΡΧΟΜΑΙΔ<br>
 ΙΑΤΟΥΦΩΤΟΣΩΣΦΩΝΗΒΟΩΝΤΟΣΕΝΤΗ<br>
@@ -33,6 +34,7 @@ layout: default
 
 ΣΥΕΙΑΚΟΥΕΜΝΗΜΟΝΕΥΕΑΝΑΓΡΑΦΕ<br>
 ΣΕΑΥΤΟΝ<br>
+</div>
 <br>
 
 ><hr>
