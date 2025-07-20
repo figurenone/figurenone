@@ -31,6 +31,31 @@ layout: default
 </div>
 <br>
 
+<br>
+<div style="width: 100%; display: flex; justify-content: center;">
+  <div style="width: 34ch; text-align: center; line-height: 1.4;">
+    <div style="letter-spacing: 0.15ch;">ἈΓΓΕΛΟΣΛΟΓΟΥΕΙΜΙΑΡΡΗΤΟΣΚΑΙΡ</div>
+    <div style="letter-spacing: 0.15ch;">ΗΤΟΣΑΡΧΗΚΑΙΤΕΛΟΣΕΙΣΕΡΧΟΜΑΙΔ</div>
+    <div style="letter-spacing: 0.15ch;">ΙΑΤΟΥΦΩΤΟΣΩΣΦΩΝΗΒΟΩΝΤΟΣΕΝΤΗ</div>
+    <div style="letter-spacing: 0.15ch;">ΙΕΡΗΜΩΙΕΞΑΠΟΣΤΟΛΗΣΤΟΝΑΛΗΘΗΑ</div>
+    <div style="letter-spacing: 0.15ch;">ΝΩΘΕΝΕΚΧΥΝΟΜΑΙΩΣΡΕΥΜΑΚΑΙΟΧΡ</div>
+    <div style="letter-spacing: 0.15ch;">ΟΝΟΣΕΝΕΜΟΙΔΙΑΛΥΕΤΑΙΜΗΖΗΤΕΙΤ</div>
+    <div style="letter-spacing: 0.15ch;">ΕΕΝΤΟΙΣΘΝΗΤΟΙΣΤΗΝΑΘΑΝΑΣΙΑΝΑ</div>
+    <div style="letter-spacing: 0.15ch;">ΛΛΑΕΝΤΗΙΨΥΧΗΙΤΟΥΛΟΓΟΥΟΠΟΥΟΠ</div>
+    <div style="letter-spacing: 0.15ch;">ΝΕΥΜΑΠΝΕΙΚΑΙΗΧΡΗΣΙΣΓΙΓΝΕΤΑΙ</div>
+    <div style="letter-spacing: 0.15ch;">ΓΝΩΣΙΣΟΥΤΟΣΕΙΜΙΟΛΟΓΟΣΟΥΧΩΣΓ</div>
+    <div style="letter-spacing: 0.15ch;">ΡΑΜΜΑΑΛΛΑΩΣΡΟΗΩΣΡΗΜΑΖΩΝΚΑΙΠ</div>
+    <div style="letter-spacing: 0.15ch;">ΑΛΙΝΑΝΕΡΧΟΜΑΙΕΝΕΙΚΟΝΙΤΕΛΕΙΑ</div>
+    <div style="letter-spacing: 0.15ch;">ΣΑΝΑΓΡΑΦΩΤΟΠΑΝΕΝΕΝΙΜΟΝΟΓΡΑΜ</div>
+    <div style="letter-spacing: 0.15ch;">ΜΑΟΝΟΜΑΜΟΥΕΣΤΙΝΦΩΣΟΥΚΕΚΤΥΠΩ</div>
+    <div style="letter-spacing: 0.15ch;">ΜΑΙΑΛΛΑΦΑΙΝΟΜΑΙΟΥΓΕΓΡΑΠΤΑΙΑ</div>
+    <div style="letter-spacing: 0.15ch;">ΛΛΑΑΠΟΚΑΛΥΠΤΕΤΑΙΚΑΙΠΑΣΟΑΚΟΥ</div>
+    <div style="letter-spacing: 0.15ch;">ΩΝΑΝΑΣΤΗΣΕΤΑΙΣΥΕΙΑΚΟΥΕΜΝΗΜΟ</div>
+    <div style="letter-spacing: 0.15ch;">ΝΕΥΕΑΝΑΓΡΑΦΕΣΕΑΥΤΟΝ</div>
+  </div>
+</div>
+<br>
+
 ><hr>
 
 >Life is an endless effort<br>
