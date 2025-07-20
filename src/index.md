@@ -28,6 +28,10 @@ Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
 
 ><hr>
 
+<br>
+
+<img src="/assets/media/beach-run.jpeg" alt="" width="333" />
+
 >Life is an endless effort<br>
 >of conscious change&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>¡<
 
