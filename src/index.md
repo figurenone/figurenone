@@ -22,6 +22,8 @@ Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
 
 </div>
 
+<br>
+
 ><hr>
 
 >Life is an endless effort<br>
