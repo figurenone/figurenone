@@ -30,17 +30,17 @@ Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
 
 <br>
 
+<div style="text-align: center;">
+
+# Θ Φ Ψ
+
 <img src="/assets/media/beach-run.jpg" alt="" width="333" />
 
->Life is an endless effort<br>
->of conscious change&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>¡<
-
->*Wherein the beginning<br>
->Completion reaches<br>
->In recursive*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Θ Φ Ψ<br>
->*Absolution*<br>
+Life is an endless effort of conscious change<br>
+*Wherein the beginning Completion reaches In recursive Absolution*<br>
 
 ><hr>
+
 <br>
 
 ## Recent Posts
@@ -51,7 +51,10 @@ Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
 
 <br>
 
+</div>
+
 ><hr>
+
 <br>
 
 >[View all posts](/posts)
