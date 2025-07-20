@@ -20,6 +20,8 @@ layout: default
 Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
 **Know thyself as living Word and write light.**<br>
 
+# >¡<
+
 </div>
 
 <br>
