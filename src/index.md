@@ -24,7 +24,7 @@ Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
 
 </div>
 
-<br>
+
 
 ><hr>
 
