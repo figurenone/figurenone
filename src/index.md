@@ -18,8 +18,6 @@ layout: default
 
 </div>
 
-<br>
-
 ><hr>
 
 >Life is an endless effort<br>
