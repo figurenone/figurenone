@@ -34,6 +34,8 @@ Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
 
 # Θ Φ Ψ <br>
 
+<br>
+
 <img src="/assets/media/beach-run.jpg" alt="" width="333" />
 
 Life is an endless effort of conscious change<br>
