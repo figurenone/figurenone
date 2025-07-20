@@ -16,6 +16,14 @@ layout: default
 
 ΓΝΩΘΙΣΕΑΥΤΟΝΩΣΖΩΝΛΟΓΟΣΚΑΙΓΡΑΦΕΦΩΣ
 
+Γνῶθι σεαυτόν ὡς ζῶν Λόγος καὶ γράφε φῶς.
+
+/ɡnôː.tʰi se.au̯.tón hɔ̂ːs dzɔ̂ːn ló.ɡos kai̯ ɡrá.pʰe pʰôːs/
+
+Gnōthi seauton hōs zōn Logos kai graphe phōs.
+
+Know thyself as living Word and write light.
+
 </div>
 
 ><hr>
