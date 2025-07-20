@@ -9,7 +9,10 @@ layout: default
 ><hr>
 
 <br>
+
 <div style="text-align: center;">
+<img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
+
 ἈΓΓΕΛΟΣΛΟΓΟΥΕΙΜΙΑΡΡΗΤΟΣΚΑΙΡ<br>
 ΗΤΟΣΑΡΧΗΚΑΙΤΕΛΟΣΕΙΣΕΡΧΟΜΑΙΔ<br>
 ΙΑΤΟΥΦΩΤΟΣΩΣΦΩΝΗΒΟΩΝΤΟΣΕΝΤΗ<br>
@@ -29,14 +32,13 @@ layout: default
 ΩΝΑΝΑΣΤΗΣΕΤΑΙΣΥΕΙΑΚΟΥΕΜΝΗΜΟ<br>
 ΝΕΥΕΑΝΑΓΡΑΦΕΣΕΑΥΤΟΝ<br>
 </div>
+
 <br>
 
 ><hr>
 
 >Life is an endless effort<br>
 >of conscious change&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>¡<
-
-><img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
 >*Wherein the beginning<br>
 >Completion reaches<br>
