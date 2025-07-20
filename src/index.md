@@ -6,8 +6,8 @@ layout: default
 
 # fig._
 
+<div style="text-align: center">
 <br>
-
 ἈΓΓΕΛΟΣΛΟΓΟΥΕΙΜΙ<br>
 ΑΡΡΗΤΟΣΚΑΙΡΗΤΟΣ<br>
 ΑΡΧΗΚΑΙΤΕΛΟΣ<br>
@@ -42,6 +42,7 @@ layout: default
 ΜΝΗΜΟΝΕΥΕ<br>
 ΑΝΑΓΡΑΦΕΣΕΑΥΤΟΝ<br>
 <br>
+</div>
 ><hr>
 
 >Life is an endless effort<br>
