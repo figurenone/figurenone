@@ -9,7 +9,7 @@ layout: default
 ><hr>
 
 <br>
-<div style="text-align: center; font-family: monospace; white-space: pre;">
+<div style="text-align: center; white-space: pre;">
 ἈΓΓΕΛΟΣΛΟΓΟΥΕΙΜΙΑΡΡΗΤΟΣΚΑΙΡ<br>
 ΗΤΟΣΑΡΧΗΚΑΙΤΕΛΟΣΕΙΣΕΡΧΟΜΑΙΔ<br>
 ΙΑΤΟΥΦΩΤΟΣΩΣΦΩΝΗΒΟΩΝΤΟΣΕΝΤΗ<br>
