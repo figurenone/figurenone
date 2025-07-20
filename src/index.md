@@ -43,6 +43,7 @@ layout: default
 ΑΝΑΓΡΑΦΕΣΕΑΥΤΟΝ<br>
 <br>
 </div>
+
 ><hr>
 
 >Life is an endless effort<br>
