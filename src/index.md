@@ -14,6 +14,8 @@ layout: default
 
 <img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
+ΓΝΩΘΙΣΕΑΥΤΟΝΩΣΖΩΝΛΟΓΟΣΚΑΙΓΡΑΦΕΦΩΣ
+
 </div>
 
 <br>
