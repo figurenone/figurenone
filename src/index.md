@@ -14,13 +14,13 @@ layout: default
 
 <img src="/assets/media/rainbow-whisp.jpeg" alt="" width="333" />
 
-# >¡<
+# >¡<<br>
 
 ΓΝΩΘΙΣΕΑΥΤΟΝΩΣΖΩΝΛΟΓΟΣΚΑΙΓΡΑΦΕΦΩΣ<br>
 Γνῶθι σεαυτόν ὡς ζῶν Λόγος καὶ γράφε φῶς.<br>
 /ɡnôː.tʰi se.au̯.tón hɔ̂ːs dzɔ̂ːn ló.ɡos kai̯ ɡrá.pʰe pʰôːs/<br>
 Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
-##### Know thyself as living Word and write light<br>
+### Know thyself as living Word and write light<br>
 
 </div>
 
