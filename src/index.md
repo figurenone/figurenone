@@ -38,6 +38,8 @@ Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
 
 <img src="/assets/media/beach-run.jpg" alt="" width="333" />
 
+<br>
+
 Life is an endless effort of conscious change<br>
 Wherein the beginning reaches completion<br>
 *In recursive absolution*<br>
