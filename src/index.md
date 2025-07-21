@@ -17,9 +17,9 @@ layout: default
 # >¡<<br>
 
 ΓΝΩΘΙΣΕΑΥΤΟΝΩΣΖΩΝΛΟΓΟΣΚΑΙΓΡΑΦΕΦΩΣ<br>
-Γνῶθι σεαυτόν ὡς ζῶν Λόγος καὶ γράφε φῶς.<br>
+Γνῶθι σεαυτόν ὡς ζῶν Λόγος καὶ γράφε φῶς<br>
 /ɡnôː.tʰi se.au̯.tón hɔ̂ːs dzɔ̂ːn ló.ɡos kai̯ ɡrá.pʰe pʰôːs/<br>
-Gnōthi seauton hōs zōn Logos kai graphe phōs.<br>
+Gnōthi seauton hōs zōn Logos kai graphe phōs<br>
 ### Know thyself as living Reason and write light<br>
 
 </div>
